@@ -5,14 +5,14 @@ import App from './App';
 import { createStore } from 'redux';
 import { Provider } from 'react-redux';
 
-import { carReducer } from './reducers';
+import {carReducer} from './reducers'
+
 
 import 'bulma/css/bulma.css';
 import './styles.scss';
 
 
-const store = createStore();
-console.log(store);
+const store = createStore(carReducer);
 
 
 
