@@ -19,7 +19,7 @@ const initialState = {
   ]
 };
 
-export const titleReducer = (state = initialState, action) => {
+export const carReducer = (state = initialState, action) => {
   console.log(action, state);
   switch (action.type) {
     // case ADD_ITEM:
