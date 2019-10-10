@@ -1,4 +1,5 @@
 import React from 'react';
+import { connect } from 'react-redux';
 
 import Header from './components/Header';
 import AddedFeatures from './components/AddedFeatures';
@@ -40,5 +41,5 @@ const mapStateToProps = state => {
 }
 
 
-export default App;
+
 export default connect(mapStateToProps, {})(App);
