@@ -30,4 +30,14 @@ const App = () => {
   );
 };
 
+
+const mapStateToProps = state => {
+  return {
+    car: state.car,
+    store: state.store,
+    additionalPrice: state.additionalPrice
+  }
+}
+
+
 export default App;
